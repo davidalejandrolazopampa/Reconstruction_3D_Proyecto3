@@ -1,11 +1,12 @@
-//
-// Created by davla on 9/12/2021.
-//
-#include <iostream>
-
-using namespace std;
+#include <bits/stdc++.h>
+/*********************************************/
+#include "Principal.h"
+/*********************************************/
 
 int main(int argc, char** argv) {
-    cout<<"Inicio"<<endl;
+    FOR(i,1,5){
+        cout<<"Inicio "<< i <<endl;
+    }
+
     return 0;
 }
