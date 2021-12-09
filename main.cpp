@@ -1,12 +1,18 @@
-#include <bits/stdc++.h>
 /*********************************************/
 #include "Principal.h"
 /*********************************************/
 
 int main(int argc, char** argv) {
-    FOR(i,1,5){
-        cout<<"Inicio "<< i <<endl;
-    }
 
+    glutInit(&argc, argv);
+    glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
+//glutD
+    glutInitWindowPosition(720, 720);
+    glutInitWindowSize(720, 720);
+    glutCreateWindow("Cerebro-Craneo 3D");
+
+    glEnable(GL_DEPTH_TEST);
+
+    glutMainLoop();
     return 0;
 }
