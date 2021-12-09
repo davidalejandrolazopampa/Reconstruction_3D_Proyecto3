@@ -1,0 +1,17 @@
+
+*.xml
+cmake-build-debug/.cmake/api/v1/query/toolchains-v1
+cmake-build-debug/.cmake/api/v1/query/codemodel-v2
+*.log
+*.txt
+*.exe
+*.check_cache
+*.cmake
+*.ninja
+*.cpp
+*.bin
+cmake-build-debug/.ninja_deps
+*.iml
+cmake-build-debug/.ninja_log
+*.c
+*.obj
