@@ -3,7 +3,7 @@
 /*********************************************/
 
 int main(int argc, char** argv) {
-
+    //Verificar error
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
 //glutD
@@ -14,5 +14,6 @@ int main(int argc, char** argv) {
     glEnable(GL_DEPTH_TEST);
 
     glutMainLoop();
+
     return 0;
 }
