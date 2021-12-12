@@ -4,18 +4,26 @@
 #include <bits/stdc++.h>
 #include <GL/freeglut.h>
 #include <chrono>
+#include <cmath>
+#include <vector>
+#include <string>
+#include <iostream>
+#include <ostream>
+#include <fstream>
 /*********************************************/
 #include "CImg.h"
+#include "vector.h"
 /*********************************************/
 #define F first;
 #define S second;
 #define PB push_back;
 #define MP make_pair;
-#define FOR(i,a,b) for(long long i=(a);i <= b;i++)
+#define FOR(i,a,b) for(int i=(a);i < b;i++)
 #define ROF(i,a,b) for(long long i=(a);i>=b;i--)
 #define sz(x) (int)(x).size();
 /*********************************************/
 using namespace std;
+using namespace cimg_library;
 //Todo typedef
 typedef long long ll;
 typedef long double ld;
