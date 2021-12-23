@@ -1,8 +1,8 @@
 /*********************************************/
 #include "point.h"
 /*********************************************/
-#define WIDTH 650
-#define HEIGHT 650
+#define WIDTH 1000
+#define HEIGHT 1000
 /*********************************************/
 Point Point_IMG;
 GLfloat Xmouse,Ymouse;
@@ -16,7 +16,9 @@ void IMG_PUNTOS(){
     Point procesadorImagenes;
     //Point_IMG.verPicture("../IMG/img.txt", 100);
     Point_IMG.verPicture("../IMG/img_brain.txt", 100);
+    //Point_IMG.verPicture("../IMG/img_new.txt", 100);
     cout<<"Se lee las images"<<endl;
+
     Point_IMG.point_out(7.0);
     Point_IMG.guardar_point("../IMG/puntos.txt");
     //Cargar

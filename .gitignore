@@ -8,10 +8,8 @@ cmake-build-debug/.cmake/api/v1/query/codemodel-v2
 *.check_cache
 *.cmake
 *.ninja
-*.cpp
 *.bin
 cmake-build-debug/.ninja_deps
 *.iml
 cmake-build-debug/.ninja_log
-*.c
-*.obj
+
